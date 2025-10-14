@@ -1,0 +1,6 @@
+.col { display: grid; gap: 12px; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.role { margin: 0; font-size: 16px; }
+.company { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.period { color: var(--muted); font-size: 12px; }
+.list { margin: 10px 0 0; padding-left: 18px; color: var(--text); opacity: .95; }

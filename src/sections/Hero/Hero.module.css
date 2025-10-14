@@ -1,0 +1,13 @@
+.hero { display: grid; grid-template-columns: 140px 1fr; gap: 18px; align-items: center; }
+.avatar { width: 140px; height: 140px; border-radius: 100%; object-fit: cover; border: 2px solid var(--border); }
+.info {}
+.name { margin: 0; font-size: 28px; }
+.role { margin: 4px 0 8px; color: var(--brand-2); font-weight: 600; }
+.summary { margin: 0 0 12px; color: var(--muted); }
+.actions { display: flex; gap: 12px; }
+.actions a { background: #1b2650; border: 1px solid var(--border); padding: 8px 12px; border-radius: 12px; text-decoration: none; }
+.actions a:hover { background: #243165; }
+@media (max-width: 640px) {
+  .hero { grid-template-columns: 1fr; text-align: center; }
+  .avatar { justify-self: center; }
+}

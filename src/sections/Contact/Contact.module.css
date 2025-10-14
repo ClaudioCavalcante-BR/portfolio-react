@@ -1,0 +1,6 @@
+.text { margin: 0 0 12px; color: var(--text); opacity: .95; }
+.actions { display: flex; gap: 12px; margin-bottom: 12px; }
+.actions a { background: #1b2650; border: 1px solid var(--border); padding: 8px 12px; border-radius: 12px; text-decoration: none; }
+.actions a:hover { background: #223063; }
+.skills { display: flex; flex-wrap: wrap; gap: 8px; }
+.badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--border); background: #172044; }
