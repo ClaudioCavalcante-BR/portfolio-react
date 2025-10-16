@@ -1,4 +1,20 @@
-.wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
-.icon { font-size: 20px; color: var(--brand-2); }
-.title { margin: 0; font-size: 24px; line-height: 1.2; }
-.subtitle { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+.wrap { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    margin-bottom: 18px; 
+}
+.icon { 
+    font-size: 20px; 
+    color: var(--brand-2); 
+}
+.title { 
+    margin: 0; 
+    font-size: 24px; 
+    line-height: 1.2; 
+}
+.subtitle { 
+    margin: 4px 0 0; 
+    color: var(--muted); 
+    font-size: 14px; 
+}

@@ -57,7 +57,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #848677;
   }
   a:hover {
     color: #747bff;
@@ -69,8 +69,8 @@ button:focus-visible {
 
 
 :root {
-  --bg: #0b1020;
-  --bg-elev: #121933;
+  --bg: #848677;
+  --bg-elev: #030d31;
   --border: #233058;
   --text: #e6ebff;
   --muted: #a7b1d6;
@@ -84,7 +84,9 @@ html, body, #root { height: 100%; }
 body {
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji";
-  background: radial-gradient(1200px 600px at 20% -10%, #1a2452 0%, transparent 60%), var(--bg);
+  background: linear-gradient(to bottom, #0d0d0f 10%, #848677 60%);
+ 
+  /* background: radial-gradient(1200px 600px at 20% -10%, #1a2452 0%, transparent 60%), var(--bg); */
   color: var(--text);
 }
 
@@ -98,4 +100,4 @@ a:hover { text-decoration: underline; }
 }
 .sectionSpacing { padding: 56px 0; }
 .grid2 { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+@media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; }}
